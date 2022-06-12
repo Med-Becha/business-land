@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #192440;
+    --secondary-color: #00ffad;
+    --tertiary-color: #292b2c;
+    --quaternary-color: #ffffff;
+}
+
+html {
+    font-size: 10px;
+    font-family: Ubuntu, sans-serif;
+    line-height: 1.5;
+}
+
+/* Write your code below */
+
+/* BANNER SECTION START */
+#banner {
+    background-image: url('./images/banner-bg-image.jpg');
+    color: var(--quaternary-color);
+    padding: 6.4rem 0;
+}
+
+#banner p {
+    font-size: 2rem;
+    margin: 2.4rem 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 80px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--quaternary-color);
+    font-size: 2rem;
+}
+
+.btn {
+    text-align: center;
+    padding: 1.2rem 3rem;
+    border: 0.2rem solid transparent;
+    margin: 2.4rem 0;
+    border-radius: 2.2rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+/* BANNER SECTION END */
+
+/* PROTECTION SECTION START */
+.protection {
+    text-align: center;
+}
+.protection .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.cards .card {
+    flex: 1
+}
+
+.protection h4 {
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.protection h2 {
+    margin: 4.8rem 0;
+}
+/* PROTECTION SECTION END */
+
+/* FEATURES SECTION START */
+.features {
+    margin-top: 7rem;
+}
+
+.features .feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 45px 0;
+}
+
+.feature-1-wrapper {
+    background-image: linear-gradient(to bottom right,#ffffff 0% 50%,#00FFAD 50% 100%)
+}
+
+.feature-2-wrapper {
+    background-color: var(--secondary-color);
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+}
+
+.features img {
+    max-width: 50%;
+}
+/* FEATURES SECTION END */
+
+/* PRICING SECTION START */
+.pricing {
+    text-align: center;
+}
+.pricing .cards {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.pricing .card {
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    padding: 2.4rem 1.5rem;
+    width: 30rem;
+}
+
+.pricing h4 {
+    font-size: 2.4rem;
+}
+
+.pricing span {
+    font-size: 9rem;
+}
+
+.pricing p {
+    padding: 0.5rem 0;
+}
+
+.pricing .card.dark {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.pricing h2 {
+    margin: 4.8rem 0;
+}
+
+/* PRICING SECTION END */
+
+/* PARTNERS SECTION START */
+.partners {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 4.8rem 0;
+    align-items: center;
+}
+/* PARTNERS SECTION END */
+
+/* CONTACT SECTION START */
+#contact {
+    background-image: url('./images/contact-bg-image.jpg');
+    color: var(--quaternary-color);
+    padding: 6.4rem 0;
+}
+
+#contact .container {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.6rem;
+}
+
+.first-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+input, textarea {
+    background-color: transparent;
+    border: solid 1px var(--secondary-color);
+    border-radius: 0.4rem;
+    color: var(--quaternary-color);
+    padding: 0.8rem 1.2rem;
+    outline: none;
+}
+.fullwidth {
+    width: 100%;
+}
+.list-unstyled {
+    list-style: none;
+    margin-top: 2.5rem;
+}
+.list-unstyled li {
+    padding: 0.4rem;
+}
+.contact-info, .contact-form {
+    flex-grow: 1;
+}
+
+.first-row .form-group {
+    flex-grow: 1;
+}
+/* CONTACT SECTION END */
+
+/* FOOTER SECTION START */
+footer {
+    background-color: var(--primary-color);
+    padding: 3.2rem;
+    color: var(--quaternary-color);
+    font-size: 1.6rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#social-media {
+    display: flex;
+    gap: 2rem
+}
+
+#social-media a{
+    background-color: var(--quaternary-color);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+/* FOOTER SECTION END */
+
+
+
+
+/* Write your code above */
+
+h1 {
+    font-size: 7.2rem;
+    margin: 4.8rem 0;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+p, li, label {
+    font-size: 1.6rem;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.font-weight-light {
+    font-weight: 300;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
